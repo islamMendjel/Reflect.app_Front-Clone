@@ -1,17 +1,11 @@
-# Vendor / ignore large non-code directories from language stats
-public/** linguist-vendored
-assets-original/** linguist-vendored
-download/** linguist-vendored
-upload/** linguist-vendored
-tests/** linguist-vendored
-examples/** linguist-vendored
-.zscripts/** linguist-vendored
-*.mp4 linguist-vendored
-*.webm linguist-vendored
-*.gif linguist-vendored
-bun.lock linguist-vendored
+# 1. Treat everything as vendored/ignored by default
+* linguist-vendored
 
-# Force TypeScript detection on all source code files
+# 2. Specifically un-vendor and detect src code
+src/** linguist-vendored=false
+src/** linguist-detectable
+
+# 3. Explicitly map extensions to TypeScript
 *.ts linguist-detectable
 *.tsx linguist-detectable
 *.ts linguist-language=TypeScript
