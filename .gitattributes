@@ -1,12 +1,18 @@
-# Ignore media and generated directories from language calculation
+# Vendor / ignore large non-code directories from language stats
 public/** linguist-vendored
 assets-original/** linguist-vendored
-upload/** linguist-vendored
 download/** linguist-vendored
+upload/** linguist-vendored
+tests/** linguist-vendored
+examples/** linguist-vendored
+.zscripts/** linguist-vendored
 *.mp4 linguist-vendored
 *.webm linguist-vendored
+*.gif linguist-vendored
+bun.lock linguist-vendored
 
-# Force language detection on source code
-src/**/*.tsx linguist-detectable=true
-src/**/*.ts linguist-detectable=true
-src/**/*.css linguist-detectable=true
+# Force TypeScript detection on all source code files
+*.ts linguist-detectable
+*.tsx linguist-detectable
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
