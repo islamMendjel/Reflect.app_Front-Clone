@@ -18,7 +18,10 @@
 
 <div align="center">
 
-[https://github.com/islamMendjel/Reflect.app_Front-Clone/raw/main/Reflect-Preview.mp4](https://github.com/user-attachments/assets/7540f4c5-5930-4cf9-b8de-b25dde31534d)
+<!-- [https://github.com/islamMendjel/Reflect.app_Front-Clone/raw/main/Reflect-Preview.mp4](https://github.com/user-attachments/assets/7540f4c5-5930-4cf9-b8de-b25dde31534d)
+-->
+
+https://github.com/user-attachments/assets/7540f4c5-5930-4cf9-b8de-b25dde31534d
 
 > *Can't see the video? [Click here to watch the preview](https://reflect-clone.space-z.ai)*
 
