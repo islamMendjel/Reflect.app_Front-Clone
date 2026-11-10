@@ -1,0 +1,12 @@
+# Ignore media and generated directories from language calculation
+public/** linguist-vendored
+assets-original/** linguist-vendored
+upload/** linguist-vendored
+download/** linguist-vendored
+*.mp4 linguist-vendored
+*.webm linguist-vendored
+
+# Force language detection on source code
+src/**/*.tsx linguist-detectable=true
+src/**/*.ts linguist-detectable=true
+src/**/*.css linguist-detectable=true
